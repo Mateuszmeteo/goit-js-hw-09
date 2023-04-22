@@ -14,11 +14,13 @@ btnStart.addEventListener('click', () => {
     timerSet = setInterval(() => {
         console.log(getRandomHexColor())
         bgdColor.style.backgroundColor = getRandomHexColor()
+        btnStart.disabled = true;
     }, 1000)
 })
 
 btnStop.addEventListener('click', () => {
     clearInterval(timerSet);
+    btnStart.disabled = false;
 });
 
 
