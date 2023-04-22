@@ -30,7 +30,7 @@ btnStop.addEventListener('click', () => {
 // console.log(bgdColor)
 
 
-/// /// 
+
 
 
 // const colorStart = () => {
