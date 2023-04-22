@@ -4,14 +4,15 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 
 
-const alfa = 'mango'
+// const alfa = 'mango'
 
-const btnx = document.querySelector('button')
+// const btnStart = document.querySelector('button')
+// const inputValue = document.querySelector('#datetime-picker')
 
-const logShow = () => {
-    console.log(alfa)
-}
+// const logShow = () => {
+//     console.log(inputValue.value)
+// }
 
-btnx.addEventListener('click', logShow )
+// btnStart.addEventListener('click', logShow )
 
 // console.log('mango')
