@@ -4,6 +4,8 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 
 
+console.log('manog')
+
 // const alfa = 'mango'
 
 // const btnStart = document.querySelector('button')

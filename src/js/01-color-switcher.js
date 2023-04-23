@@ -23,6 +23,7 @@ btnStop.addEventListener('click', () => {
     btnStart.disabled = false;
 });
 
+// console.log('mango')
 
 
 // console.log(btnStart)
