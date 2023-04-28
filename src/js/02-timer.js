@@ -59,6 +59,7 @@ function convertMs(ms) {
     onClose(selectedDates) {
       if (selectedDates[0] < new Date()) {
         Notiflix.Notify.failure('Please choose a date in the future');
+        startBtn.setAttribute('disabled', true)
         return;
       }
       startBtn.removeAttribute('disabled');
@@ -98,6 +99,7 @@ function convertMs(ms) {
       startBtn.addEventListener('click', onClick);
     },
   };
+
   
   flatpickr('#datetime-picker', { ...options });
 
