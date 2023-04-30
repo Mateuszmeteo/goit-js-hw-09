@@ -85,6 +85,7 @@ function convertMs(ms) {
           secondsRef.textContent === '00'
         ) {
           clearInterval(timerId);
+          Notiflix.Notify.success('Success')
         }
       };
   
